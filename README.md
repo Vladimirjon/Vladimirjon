@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # Johann Vladimir Pasquel Montenegro
@@ -129,4 +128,4 @@ I am currently expanding my work in:
 
 **LinkedIn:** [linkedin.com/in/johannpasquel](https://www.linkedin.com/in/johannpasquel/)  
 **Email:** [johannpasquel@gmail.com](mailto:johannpasquel@gmail.com)
-```
+
