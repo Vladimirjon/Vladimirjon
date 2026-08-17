@@ -1,108 +1,132 @@
+```markdown
 <div align="center">
 
-<img src="./assets/harry_pixel_banner.png" alt="GitHub Banner" width="100%" />
+# Johann Vladimir Pasquel Montenegro
 
-# Johann Pasquel
+### Software Development · Automation & AI Workflows · Data Analytics
 
-Computer Science student at Escuela Politécnica Nacional, Ecuador.
-Focused on software development, backend systems, databases, distributed systems, Linux and cybersecurity fundamentals.
+Computer Science Engineering student at **Escuela Politécnica Nacional (EPN)**  
+Quito, Ecuador
 
-<p>
-  <a href="https://www.linkedin.com/in/johann-pasquel-montenegro-39876a198/">
-    <img src="https://img.shields.io/badge/LinkedIn-Johann%20Pasquel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:johann.pasquel@epn.edu.ec">
-    <img src="https://img.shields.io/badge/Email-johann.pasquel@epn.edu.ec-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="./PasquelJohann_CurriculumVitae.pdf">
-    <img src="https://img.shields.io/badge/CV-View%20PDF-111111?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-johannpasquel-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannpasquel/)
+[![Email](https://img.shields.io/badge/Email-johannpasquel%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:johannpasquel@gmail.com)
 
 </div>
 
 ---
 
-## About me
+## About
 
-I am a Computer Science student at Escuela Politécnica Nacional with academic experience in:
+I build software and automation systems that connect **APIs, data, Linux infrastructure, and applied AI**.
 
-- backend and software development
-- Linux systems and distributed systems
-- databases and institutional information systems
-- cybersecurity fundamentals and cryptography
-- artificial intelligence and computer vision
+My recent work spans workflow automation with **n8n**, self-hosted services with **Docker and Ollama**, data analysis with **SQL and Power BI**, distributed systems, backend development, and computer vision.
 
-Currently, I am also involved in academic research activities related to LLMs, EMG signals and assistive robotics.
+At **ARCONEL**, I worked on institutional process automation, functional validation, technical documentation, and the migration and restoration of Linux-based application environments.
+
+I am currently deepening my work in **AI agents, workflow orchestration, local LLMs, and production-oriented automation**.
 
 ---
 
-## Current focus
+## Core stack
 
-- Java, SQL and backend fundamentals
-- Linux servers, sockets and distributed systems
-- Databases and institutional systems
-- Cybersecurity fundamentals and cryptography
-- Academic research in AI, LLMs and computer vision
+### Software & Integration
 
----
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-111827?style=flat-square&logo=c&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square)
+![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=white)
 
-## Technical stack
+### Automation & AI
 
-### Languages
+![n8n](https://img.shields.io/badge/n8n-111827?style=flat-square&logo=n8n&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-111827?style=flat-square&logo=ollama&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power_Automate-111827?style=flat-square)
+![AI Workflows](https://img.shields.io/badge/AI_Workflows-111827?style=flat-square)
 
-![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus&logoColor=white)
+### Data & Analytics
 
-### Tools and environments
+![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-111827?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-111827?style=flat-square&logo=powerbi&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-111827?style=flat-square)
+![DAX](https://img.shields.io/badge/DAX-111827?style=flat-square)
 
-![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-111111?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-111111?style=for-the-badge&logo=latex&logoColor=white)
-![Overleaf](https://img.shields.io/badge/Overleaf-111111?style=for-the-badge&logo=overleaf&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-111111?style=for-the-badge&logo=jupyter&logoColor=white)
+### Systems
 
----
-
-## Featured projects
-
-### Dental Appointment System
-
-Web application for managing dental appointments, integrating frontend, backend and database persistence.
-
-### Academic Web System
-
-Software engineering project focused on requirements analysis, system design, documentation and modular organization.
-
-### Computer Vision Research Project
-
-Academic work related to image processing, neural networks and visual recognition.
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
+![OpenLDAP](https://img.shields.io/badge/OpenLDAP-111827?style=flat-square)
+![Kerberos](https://img.shields.io/badge/Kerberos-111827?style=flat-square)
+![HAProxy](https://img.shields.io/badge/HAProxy-111827?style=flat-square&logo=haproxy&logoColor=white)
+![TLS](https://img.shields.io/badge/PKI_%2F_TLS-111827?style=flat-square)
 
 ---
 
-## Academic and professional highlights
+## Selected projects
 
-- IEEEXtreme 19.0 Ecuador — 3rd place, Team Kiubit
-- Collaborator at the Alan Turing AI and Computer Vision Laboratory
-- Cambridge English C1
-- Training in cybersecurity, cryptography, Scrum and LaTeX
+### [Distributed Identity & High Availability](https://github.com/Vladimirjon/PasquelJ-MiniIdM)
+
+Distributed identity architecture deployed across **three Linux virtual machines** using OpenLDAP primary/replica services, Kerberos authentication, PKI/TLS, HAProxy, and Keepalived.
+
+Automated resilience tests maintained **12/12 successful requests** during controlled service failures.
+
+`Linux` `OpenLDAP` `Kerberos` `HAProxy` `Keepalived` `PKI/TLS`
 
 ---
 
-## Certifications and complementary training
+### [Computer Vision Game Reconstruction](https://github.com/Vladimirjon/Captura_automatica_de_posiciones_con_AI_Vision)
 
-- Scrum Fundamentals Certified (SFC)
-- Cryptography: Theory and Practice with Labs
-- Cybersecurity Awareness for Corporate Leaders
-- Cybersecurity – CompTIA Security+ Module 1
-- LaTeX Complete Course
+End-to-end computer vision pipeline for reconstructing physical Amazons game matches through piece detection, perspective correction, move validation, and real-time board-state tracking.
+
+Fine-tuned YOLOv8-nano achieved **99.38% precision, 100% recall, 99.50% mAP50, and 26.2 ms inference time per image**.
+
+`Python` `YOLOv8` `OpenCV` `Roboflow` `Computer Vision`
+
+---
+
+### [Concurrent Web Server in C](https://github.com/Vladimirjon/PasquelJ-MiniHTTPd)
+
+Single-process concurrent web server built with non-blocking TCP I/O and event multiplexing.
+
+Implemented persistent connections, timeouts, static-file delivery, MIME handling, and mitigations against path traversal and malformed requests.
+
+`C` `Linux` `TCP` `Concurrency` `Systems Programming`
+
+---
+
+## Credentials & recognition
+
+- **n8n Program Completion — Professional Certificate**  
+  Workflow automation, API integrations, AI workflows, testing, debugging, and production best practices.  
+  [Verify credential](https://credentials.learn.n8n.io/credentials/5dc1a64ac5784d949fe77bc2b0e21167/)
+
+- **Power BI: Data Analysis & Data Modeling — Santander Open Academy**  
+  Power Query, DAX, data modeling, transformation, and analytics.
+
+- **IEEEXtreme 19.0 — 3rd Place in Ecuador**  
+  Team Kiubit · IEEE · 2025
+
+- **Cambridge English C1**
+
+---
+
+## Current direction
+
+I am currently expanding my work in:
+
+- AI agents and agent orchestration
+- Local LLM workflows with Ollama
+- Production-oriented n8n automation
+- Data pipelines and public-data analytics
+- End-to-end software products combining automation, data, and AI
+
+---
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/johann-pasquel-montenegro-39876a198/
-- Email: johann.pasquel@epn.edu.ec
+**LinkedIn:** [linkedin.com/in/johannpasquel](https://www.linkedin.com/in/johannpasquel/)  
+**Email:** [johannpasquel@gmail.com](mailto:johannpasquel@gmail.com)
+```
