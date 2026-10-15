@@ -1,131 +1,125 @@
-<div align="center">
+<h1 align="center">Johann Pasquel</h1>
 
-# Johann Vladimir Pasquel Montenegro
+<p align="center"><strong>Computer Science Engineering student building reliable data systems</strong></p>
 
-### Software Development · Automation & AI Workflows · Data Analytics
+<p align="center">Python · SQL · PostgreSQL · Data Engineering · Backend Systems</p>
 
-Computer Science Engineering student at **Escuela Politécnica Nacional (EPN)**  
-Quito, Ecuador
+<p align="center">
+  Quito, Ecuador ·
+  <a href="https://vladimirjon.github.io/JohannPasquel_PersonalWebsite/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/johannpasquel/">LinkedIn</a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-johannpasquel-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johannpasquel/)
-[![Email](https://img.shields.io/badge/Email-johannpasquel%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:johannpasquel@gmail.com)
+## About me
 
-</div>
+I am a Computer Science Engineering student at **Escuela Politécnica Nacional** with practical experience in backend development, relational databases, Linux environments, and workflow automation.
 
----
+I am moving toward **data engineering** because I enjoy the part of software where reliability matters most: acquiring source data, preserving evidence, validating it, modeling relationships, and making the result useful for analytics.
 
-## About
+```text
+source → raw evidence → validation → relational storage → transformation → analytics
+```
 
-I build software and automation systems that connect **APIs, data, Linux infrastructure, and applied AI**.
+I am currently looking for internships and junior roles in **data engineering, analytics engineering, and backend data systems**.
 
-My recent work spans workflow automation with **n8n**, self-hosted services with **Docker and Ollama**, data analysis with **SQL and Power BI**, distributed systems, backend development, and computer vision.
+## Featured work
 
-At **ARCONEL**, I worked on institutional process automation, functional validation, technical documentation, and the migration and restoration of Linux-based application environments.
+### 01 · [Ecuador Public Procurement Data Quality Monitor](https://github.com/Vladimirjon/ec-public-procurement-quality-monitor)
 
-I am currently deepening my work in **AI agents, workflow orchestration, local LLMs, and production-oriented automation**.
+An auditable foundation for preserving and assessing Ecuadorian public-procurement source data.
 
----
+- Built content-addressed raw storage with SHA-256 integrity verification.
+- Implemented typed source access and PostgreSQL persistence for runs, observations, and audit events.
+- Added checksum-verified migrations, append-only rules, and automated unit and integration tests.
+- Documented explicit boundaries between source evidence, normalized data, and future quality results.
 
-## Core stack
+**Status:** active development. The storage and persistence foundations are implemented; end-to-end ingestion and quality reporting are still pending.
 
-### Software & Integration
-
-![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-111827?style=flat-square&logo=c&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-111827?style=flat-square)
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=white)
-
-### Automation & AI
-
-![n8n](https://img.shields.io/badge/n8n-111827?style=flat-square&logo=n8n&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-111827?style=flat-square&logo=ollama&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power_Automate-111827?style=flat-square)
-![AI Workflows](https://img.shields.io/badge/AI_Workflows-111827?style=flat-square)
-
-### Data & Analytics
-
-![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-111827?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-111827?style=flat-square&logo=powerbi&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power_Query-111827?style=flat-square)
-![DAX](https://img.shields.io/badge/DAX-111827?style=flat-square)
-
-### Systems
-
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
-![OpenLDAP](https://img.shields.io/badge/OpenLDAP-111827?style=flat-square)
-![Kerberos](https://img.shields.io/badge/Kerberos-111827?style=flat-square)
-![HAProxy](https://img.shields.io/badge/HAProxy-111827?style=flat-square&logo=haproxy&logoColor=white)
-![TLS](https://img.shields.io/badge/PKI_%2F_TLS-111827?style=flat-square)
+`Python` `PostgreSQL` `SQL` `httpx` `psycopg` `Docker` `GitHub Actions`
 
 ---
 
-## Selected projects
+### 02 · [Computer Vision Game Reconstruction](https://github.com/Vladimirjon/Captura_automatica_de_posiciones_con_AI_Vision)
 
-### [Distributed Identity & High Availability](https://github.com/Vladimirjon/PasquelJ-MiniIdM)
+End-to-end pipeline for reconstructing physical Amazons matches from images.
 
-Distributed identity architecture deployed across **three Linux virtual machines** using OpenLDAP primary/replica services, Kerberos authentication, PKI/TLS, HAProxy, and Keepalived.
+- Detects pieces, corrects perspective, reconstructs the board, validates moves, and tracks match state.
+- The YOLOv8-nano model reached **99.38% precision, 100% recall, and 99.50% mAP50** on the project evaluation.
+- Connects model output with deterministic game rules instead of stopping at object detection.
 
-Automated resilience tests maintained **12/12 successful requests** during controlled service failures.
+`Python` `YOLOv8` `OpenCV` `Roboflow`
+
+---
+
+### 03 · [Distributed Identity and High Availability](https://github.com/Vladimirjon/PasquelJ-MiniIdM)
+
+Identity architecture deployed across three Linux virtual machines.
+
+- Configured replicated OpenLDAP, redundant Kerberos, PKI/TLS, HAProxy, and Keepalived.
+- Designed controlled failure tests that maintained **12/12 successful requests**.
+- Practiced service redundancy, certificate management, health checks, and operational recovery.
 
 `Linux` `OpenLDAP` `Kerberos` `HAProxy` `Keepalived` `PKI/TLS`
 
 ---
 
-### [Computer Vision Game Reconstruction](https://github.com/Vladimirjon/Captura_automatica_de_posiciones_con_AI_Vision)
+### 04 · [Concurrent Web Server in C](https://github.com/Vladimirjon/PasquelJ-MiniHTTPd)
 
-End-to-end computer vision pipeline for reconstructing physical Amazons game matches through piece detection, perspective correction, move validation, and real-time board-state tracking.
+Single-process HTTP server built around non-blocking TCP I/O and event multiplexing.
 
-Fine-tuned YOLOv8-nano achieved **99.38% precision, 100% recall, 99.50% mAP50, and 26.2 ms inference time per image**.
+- Supports persistent connections, timeouts, static-file delivery, and MIME handling.
+- Includes protections against path traversal and malformed requests.
+- Strengthened my understanding of networking, concurrency, and systems-level failure modes.
 
-`Python` `YOLOv8` `OpenCV` `Roboflow` `Computer Vision`
+`C` `Linux` `TCP` `Non-blocking I/O` `Systems Programming`
 
----
+## Experience that supports data engineering
 
-### [Concurrent Web Server in C](https://github.com/Vladimirjon/PasquelJ-MiniHTTPd)
+### Abimatik Medical Instruments
 
-Single-process concurrent web server built with non-blocking TCP I/O and event multiplexing.
+Built an offline-capable technical-reporting product that turns one structured capture into a PDF, an Excel file based on the official template, and a client email. Implemented synchronized local data, versioned corrections, append-only audit records, and automated delivery workflows.
 
-Implemented persistent connections, timeouts, static-file delivery, MIME handling, and mitigations against path traversal and malformed requests.
+### Conservatorio Nacional de Música
 
-`C` `Linux` `TCP` `Concurrency` `Systems Programming`
+Developed backend modules and academic reporting flows with NestJS, TypeORM, MySQL, JWT, and Next.js. Unified fragmented grade structures, implemented relational integrity rules, and built reports around enrollment and academic records.
 
----
+### ARCONEL
 
-## Credentials & recognition
+Restored and validated an institutional data-processing environment on AlmaLinux using Apache, Python, ODBC, and SQL Server. Also implemented an institutional scheduling workflow with Microsoft Bookings, Forms, and Power Automate.
 
-- **n8n Program Completion — Professional Certificate**  
-  Workflow automation, API integrations, AI workflows, testing, debugging, and production best practices.  
-  [Verify credential](https://credentials.learn.n8n.io/credentials/5dc1a64ac5784d949fe77bc2b0e21167/)
+## Technical toolkit
 
-- **Power BI: Data Analysis & Data Modeling — Santander Open Academy**  
-  Power Query, DAX, data modeling, transformation, and analytics.
+| Area | Technologies and practices |
+| --- | --- |
+| Data engineering | Python, SQL, PostgreSQL, MySQL, SQL Server, relational modeling, source evidence, data validation |
+| Analytics | Power BI, Power Query, DAX, reproducible reporting |
+| Backend | TypeScript, PHP, NestJS, TypeORM, REST APIs, JWT |
+| Infrastructure | Docker, Linux, Apache, GitHub Actions |
+| Automation | n8n, Power Automate, Microsoft Forms and Bookings |
 
-- **IEEEXtreme 19.0 — 3rd Place in Ecuador**  
-  Team Kiubit · IEEE · 2025
+## How I approach engineering
 
-- **Cambridge English C1**
+- Preserve raw evidence before transforming it.
+- Make integrity rules explicit in the data model and persistence layer.
+- Prefer reproducible migrations, automated checks, and observable failures.
+- State project limitations instead of presenting prototypes as finished systems.
+- Keep documentation close to the decisions it explains.
 
----
+## Recognition and credentials
 
-## Current direction
+- **3rd place in Ecuador — IEEEXtreme 19.0**, Team Kiubit.
+- **Cambridge English C1**.
+- **n8n Professional Certificate**, 2026.
+- **Power BI: Data Analysis and Data Modeling**, Santander Open Academy, 2026.
+- **Scrum Fundamentals Certified**, 2025.
 
-I am currently expanding my work in:
+## Current focus
 
-- AI agents and agent orchestration
-- Local LLM workflows with Ollama
-- Production-oriented n8n automation
-- Data pipelines and public-data analytics
-- End-to-end software products combining automation, data, and AI
+- Completing an auditable public-procurement ingestion and quality workflow.
+- Strengthening batch-processing, data-profiling, and PostgreSQL design practices.
+- Building a portfolio where every highlighted project has clear evidence, limitations, and reproducible setup.
 
----
-
-## Contact
-
-**LinkedIn:** [linkedin.com/in/johannpasquel](https://www.linkedin.com/in/johannpasquel/)  
-**Email:** [johannpasquel@gmail.com](mailto:johannpasquel@gmail.com)
+<p align="center">
+  <strong>Open to data engineering, analytics engineering, and backend data opportunities.</strong>
+</p>
 
